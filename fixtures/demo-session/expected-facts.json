@@ -1,0 +1,8 @@
+[
+  {"fact_type": "decision", "fact": "raw transcript remains authoritative"},
+  {"fact_type": "path", "fact": "/tmp/demo-memory/session.jsonl"},
+  {"fact_type": "command", "fact": "python3 -m pytest tests"},
+  {"fact_type": "blocker", "fact": "local summarizer may be unavailable"},
+  {"fact_type": "preference", "fact": "derived summaries are not doctrine"}
+]
+

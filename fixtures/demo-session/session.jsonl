@@ -1,0 +1,3 @@
+{"role":"user","content":"Goal: build a portable memory layer. Decision: raw transcript remains authoritative. Path: /tmp/demo-memory/session.jsonl. Command: python3 -m pytest tests. Blocker: local summarizer may be unavailable. Preference: derived summaries are not doctrine."}
+{"role":"assistant","content":"Implemented typed facts, append-only compression episodes, active derived summaries, and SQLite recall. Verification command: argobrain-memory benchmark --fixture fixtures/demo-session --mode all --output /tmp/demo-memory/out."}
+
