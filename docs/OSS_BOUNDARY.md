@@ -12,9 +12,8 @@ Do not add:
 - live agent hook installers;
 - default cloud providers that send user content without opt-in.
 
-Before any public release, scan:
+Before any public release, run the shared Release Forge scan from the private release tooling repo. Keep the literal private-pattern blocklist in private release tooling, not in this public-facing repository.
 
 ```bash
-rg -n "/home/argo|/mnt/homes|Vaults|conversation-archive|argobox/sessions|\\.codex|\\.hermes|abx-ssh|credential-broker|sk-[A-Za-z0-9]|BEGIN OPENSSH PRIVATE KEY|BEGIN RSA PRIVATE KEY" .
+release-forge scan <staged-export> --manifest <release-forge.toml>
 ```
-
