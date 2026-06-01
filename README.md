@@ -1,4 +1,4 @@
-# Argobrain Memory
+# ArgoBrain-Memory
 
 Portable, evidence-linked memory for AI agent sessions.
 
@@ -74,5 +74,4 @@ memory-root/
 
 ## Status
 
-Alpha extraction scaffold. The core architecture is stable enough for benchmarking and adapter development, but public package publishing should wait for a fresh-clone/fake-HOME release gate.
-
+Initial 0.1.0 release. The core architecture is stable enough for benchmarking and adapter development. Public package publishing should still wait for a fresh-clone/fake-HOME release gate.
